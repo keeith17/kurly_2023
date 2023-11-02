@@ -1,0 +1,801 @@
+@charset "utf-8";
+@import url(./fonts.css);
+@import url(./reset.css);
+
+#wrap {
+    width:100%;
+}
+
+ 
+
+#wrap #header {
+    width:100%;
+    border-bottom:1px solid #5f0080;
+    padding:0 0 10px 0;
+
+    position:relative;
+    z-index:3;
+}
+#wrap #header .container {
+    width:100%;
+}
+#wrap #header .container .wrap {
+    width:100%;
+}
+
+
+
+#wrap #header .container .wrap .popup {
+    width:100%;
+}
+#wrap #header .container .wrap .popup .popup-container {
+    width:100%;
+}
+/* 긴 링크 */
+#wrap #header .container .wrap .popup .popup-container > a {
+    display:block;
+    width:100%;
+    height:42px;
+    background:#5f0080;
+    text-align:center;
+    color:#fff;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing: -0.7px;
+    line-height:42px;
+    position:relative;
+    z-index:1;
+}
+#wrap #header .container .wrap .popup .popup-container > a > span {
+    display:block;
+    height:42px;
+    line-height:42px;
+}
+#wrap #header .container .wrap .popup .popup-container > a > span > i {
+    vertical-align:baseline;
+}
+#wrap #header .container .wrap .popup .popup-container > a > span > i > img {
+    width:42px;
+    height:42px;
+    margin:-2px 0 0 -5px;
+}
+
+/* 닫기버튼 */
+#wrap #header .container .wrap .popup .popup-container > span {
+    width:42px;
+    height:42px;
+    margin-left:483px;
+    position:absolute;
+    top:0;
+    left:50%;
+    z-index:2;
+}
+#wrap #header .container .wrap .popup .popup-container > span > button {
+    width:100%;
+}
+#wrap #header .container .wrap .popup .popup-container > span > button > img {
+    width:100%;
+}
+
+#aside {
+    width:100%;
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:flex-end;
+    padding:15px 0;
+}
+#aside ul {
+    display:flex;
+}
+#aside ul li{
+    font-size:12px;
+}
+#aside ul li a {
+    color:#333;
+}
+#aside ul li a:hover {
+    color:#5f0080;
+}
+#aside ul li a:focus {
+    color:#5f0080
+}
+#aside ul li span {
+    margin: 0 10px;
+    color:#ccc;
+}
+
+/* 로고 */
+#wrap #header .container .wrap h1 {
+    text-align:center;
+}
+#wrap #header .container .wrap h1 a img {
+    width:110px;
+}
+
+
+/* 로그인 */
+#login {
+    text-align:center;
+    padding:100px 0;
+}
+#login .container {
+    width:340px;
+    margin:0 auto;
+}
+#login .container .title {
+    padding:0 0 40px 0;
+}
+#login .container .title h1 {
+    font-size:20px;
+    color:#333;
+    font-weight:800;
+}
+
+#login .container .content {
+    width:100%;
+}
+#login .container .content #loginForm {
+    width:100%;
+}
+#login .container .content #loginForm ul {
+    width:100%;
+}
+#login .container .content #loginForm ul li {
+    width:100%;
+    padding:5px 0;
+}
+#login .container .content #loginForm ul li input {
+    width:100%;
+    height:54px;
+    border:1px solid #ccc;
+    padding:0 0 0 15px;
+}
+#login .container .content #loginForm ul li input::placeholder {
+    color:#aaa;
+    font-size:16px;
+}
+#login .container .content #loginForm ul li button {
+    width:100%;
+    height:54px;
+    font-size:16px;
+    font-weight:500;
+    cursor:pointer;
+}
+#login .container .content #loginForm ul li button.login-btn {
+    background:#5f0080;
+    color:#fff;
+    border:0;
+}
+#login .container .content #loginForm ul li button.gaib-btn {
+    background:#fff;
+    color:#5f0080;
+    border:1px solid #5f0080;
+}
+
+#login .container .content #loginForm ul li .search {
+    padding:5px 0 20px 0;
+    text-align:right;
+    font-size:12px;
+    color:#333;
+}
+#login .container .content #loginForm ul li .search span a {
+    color:#333;
+}
+#login .container .content #loginForm ul li .search span a:hover {
+    color:#5f0080;
+}
+#login .container .content #loginForm ul li .search span i {
+    margin:0 6px;
+    color:#bbb;
+}
+
+
+
+
+/* 메인 */
+#wrap #main {
+    width:100%;
+    position:relative;
+    z-index:2;
+}
+#wrap #main #member {
+    width:100%;
+    border-bottom:1px solid #fcfcfc;
+}
+#wrap #main #member .container {
+    width:640px;
+    margin:0 auto;
+}
+#wrap #main #member .container .wrap {
+    width:100%;
+}
+
+/* 회원가입 타이틀 */
+#wrap #main #member .container .wrap .title {
+    width:100%; 
+    text-align:center;
+    padding:40px 0;
+}
+#wrap #main #member .container .wrap .title h2 {
+    font-size:24px;
+    font-weight:500;
+    color:#333;
+}
+
+/* 회원가입 폼 */
+#wrap #main #member .container .wrap .content {
+    width:100%;
+}
+#wrap #main #member .container .wrap .content form {
+    width:100%;
+}
+#wrap #main #member .container .wrap .content ul.inputForm  {
+    width:100%;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li {
+    width:100%;
+}
+
+/* 소 타이틀 */
+#wrap #main #member .container .wrap .content ul.inputForm > li > h3 {
+    text-align:right;
+    width:100%;
+    font-size:12px;
+    border-bottom:2px solid #333;
+    padding: 0 0 10px 0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > h3 > i {
+    color:#ee6a7b;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > h3 > span {
+    color:#666;
+    margin:0 0 0 2px;
+}
+/* 왼쪽 분류 이름 */
+#wrap #main #member .container .wrap .content ul.inputForm > li {
+    display:flex;
+    padding:10px 0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .left {
+    width:159px;
+    padding:0 0 0 25px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .left label {
+    height:45px;
+    display:flex;
+    align-items:center;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .left label span {
+    color:#333;
+    font-size:15px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .left label i {
+    color:#ee6a7b;
+    font-size:14px;
+    margin-left:2px;
+}
+
+/* 오른쪽 인풋 */
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right {
+    width:481px;
+    padding:0 159px 0 0;
+    position:relative;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='text'] {
+    width:100%;
+    height:45px;
+    border:1px solid #ccc;
+    padding: 0 15px;
+    border-radius:3px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='text']::placeholder {
+    color:#bbb;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='text']:focus {
+    outline:1px solid #666;
+    outline-offset:-1px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='text'].error {
+    outline:1px solid #b3130b;
+    outline-offset:-1px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='password'] {
+    width:100%;
+    height:45px;
+    border:1px solid #ccc;
+    padding: 0 15px;
+    border-radius:3px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='password']::placeholder {
+    color:#bbb;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='password']:focus {
+    outline:1px solid #666;
+    outline-offset:-1px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='email'] {
+    width:100%;
+    height:45px;
+    border:1px solid #ccc;
+    padding: 0 15px;
+    border-radius:3px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='email']::placeholder {
+    color:#bbb;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='email']:focus {
+    outline:1px solid #666;
+    outline-offset:-1px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='email'].error {
+    outline:1px solid #b3130b;
+    outline-offset:-1px;
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li.address .right input[type='text'] {
+    margin:0 0 5px 0;
+    display:block;
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button {
+    position:absolute;
+    top:0;
+    right:34px;
+    width:120px;
+    height:45px;
+    background:#fff;
+    color:#5f0080;
+    font-size:14px;
+    border:1px solid #5f0080;
+    border-radius:3px;
+}
+
+/* 휴대전화 */
+
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button.phone-btn {
+    position:absolute;
+    top:0;
+    right:34px;
+    width:120px;
+    height:45px;
+    background:#fff;
+    color:#ccc;
+    font-size:14px;
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button.phone-btn.on {
+    color:#5f0080;
+    border:1px solid #5f0080;
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button.phone-btn.phone-ok-btn {
+    top:55px;
+    display:block;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button.phone-btn.phone-ok-btn.ok {
+    color:#ccc;
+    border:1px solid #ccc;
+
+    display:none;
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='text']#inputPhoneok {
+    margin-top:10px;
+    display:block;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right input[type='text']#inputPhoneok.ok::placeholder{
+    color:rgba(0,0,0,0);
+}
+/* 휴대전화 번호인증 타이머 */
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .count-timer {
+    position:absolute;
+    top:70px;
+    right:175px;
+    color:#b3130b;
+    font-size:14px;
+    font-weight:500;
+
+    display:block;
+}
+
+/* 주소검색버튼 */
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button.address-btn {
+    position:relative;
+    left:0;
+    top:0;
+    width:100%;
+    height:45px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button.address-btn span {
+    font-size:15px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right button.address-btn span img {
+    margin:-3px 0 0 0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .address-p {
+    font-size:12px;
+    color:#666;
+    padding: 10px 0 0 0;
+}
+
+/* 성별선택 */
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender {
+    height:45px;
+    display:flex;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender label:nth-child(1) {
+    margin:auto auto auto 0;
+
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender label:nth-child(2) {
+    margin:auto;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender label:nth-child(3) {
+    margin:auto 0 auto auto;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender label input[type='radio'] {
+    appearance:none;
+    border:1px solid #ccc;
+    width:24px;
+    height:24px;
+    border-radius:12px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender label input[type='radio']:checked {
+    border:6px solid #5f0080;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender label span {
+    font-size:15px;
+    margin:0 0 0 3px;
+    user-select: none;
+}
+
+/* 생년월일 */
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .date-box {
+    width:100%;
+    height:45px;
+    border:1px sollid #ccc;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .date-box ul {
+    display:flex;
+    text-align: center;
+    width:100%;
+    height:45px;
+    border:1px solid #ccc;
+    padding:0 15px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .date-box ul li:nth-child(odd) {
+    width:30%;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .date-box ul li:nth-child(even) {
+    width:5%;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .date-box ul li input[type='text'] {
+    width:100%;
+    height:43px;
+    border:0;
+    text-align:center;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .date-box ul li input[type='text']:focus {
+    border:0;
+    outline:0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right .date-box ul li span {
+    height:45px;
+    display:flex;
+    align-items:center;
+    font-size:15px;
+    color:#999;
+}
+
+/* 추천인 참여이벤트 */
+#wrap #main #member .container .wrap .content ul.inputForm > li.add-item {
+    height:auto;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .left {
+    height:auto;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right label {
+    padding:7px 0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right p {
+    padding:10px 0 0 0;
+    font-size:12px;
+    line-height:160%;
+    letter-spacing:-1px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender.add {
+    display:flex;
+    flex-flow:row wrap;
+    height:auto;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender.add > .add-input-box {
+    width:100%;
+    padding:10px 0;
+    display:block;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender.add label:nth-child(1) {
+    margin:auto auto auto 0;
+
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li > .right.gender.add label:nth-child(2) {
+    margin:auto 0 auto auto;
+}
+
+/* 위쪽 구분선 */
+#wrap #main #member .container .wrap .content ul.inputForm > li hr {
+    width:100%;
+    border:0;
+    border-bottom:1px solid #333;
+}
+
+/* 아래쪽 구분선 */
+#wrap #main #member .container .wrap .content ul.inputForm > li.bottom-line hr {
+    border-color:#ddd;
+}
+
+/* 약관동의 체크박스 */
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box {}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .left {}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right {
+    padding:0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol {
+    width:100%;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li {
+    width:100%;
+    padding:10px 0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li label {
+    width:100%;
+    display:block;
+    position:relative;
+    z-index:1;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li label input[type='checkbox'] {
+    appearance:none;
+    width:24px;
+    height:24px;
+    background: url(../images/ico_checkbox.svg) no-repeat 50% 50%;
+    background-size:24px;
+    border-radius:50%;
+
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li label input[type='checkbox']:checked {
+    background-image:url(../images/ico_checkbox_checked.svg);
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li label span {
+    margin:0 0 0 5px;
+    font-size:15px;
+    user-select:none;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li label span i {
+    color:#aaa;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li:nth-child(1) label span {
+    font-size:18px;
+    font-weight:600;
+    color:#666;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li p {
+    padding:0 0 0 31px;
+    font-size:12px;
+    color:#666;
+    letter-spacing: -1px;
+    user-select:none;
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li dl {
+    padding:0 0 0 33px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li dl dd {
+    display:flex;
+    padding:10px 0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li dl dd label {
+    width:30%;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li dl dd label span {
+    font-size:15px;
+    user-select:none;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li dl dt {
+    padding:0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li dl dt p {
+    margin:5px 0 0 31px;
+    padding:0 0 0 15px;
+    font-size:12px;
+    color:#5f0080;
+    letter-spacing: -1px;
+    user-select:none;
+    background:url(../images/ico_sub_dot.svg) no-repeat 0 50%;
+}
+/* 약관보기 */
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li.view-box {
+    position:relative;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li.view-box > span {
+    position:absolute;
+    right:25px;
+    top:15px;
+    z-index:2;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li.view-box > span a {
+    color:#5f0080;
+    font-size:14px;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.check-box .right ol li.view-box > span a i {
+    font-size:15px;
+    vertical-align:baseline;
+}
+
+/* 가이드 텍스트 */
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text {
+    width:100%;
+    padding:10px 0 0 0;
+    line-height:140%;
+    display:block;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-address {
+    display:none;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-address.on {
+    display:block;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-address h4 {
+    color:#5f0080;
+    font-size:13px;
+    font-weight:600;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-address h4.no {
+    color:#444;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text.guide-birthday-confirm {
+    display:block;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text.guide-birthday-confirm p {
+    display:block;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text.guide-birthday-confirm p.error {
+    color:#b3130b;
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text p {
+    font-size:12px;
+    color:#666;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text p::before {
+    content:'\2022';
+    display:inline-block;
+    margin:0 7px 0 0;   
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text p.error {
+    color:#b3130b;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text p.error::before {
+    content:'\2715';
+    color:#b3130b;
+    margin:0 3px 0 0;
+}
+
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text p.success {
+    color:#0f851a;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li .right .guide-text p.success::before {
+    content:'\2714';
+    color:#0f851a;
+    margin:0 3px 0 0;
+}
+
+
+
+
+/* 버튼박스 */
+#wrap #main #member .container .wrap .content ul.inputForm > li.button-box {
+    width:100%;
+    padding:50px 0 60px 0;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.button-box button {
+    width:250px;
+    height:60px;
+    background:#5f0080;
+    color:#fff;
+    border-radius:3px;
+    font-size:18px;
+    margin:auto;
+    transition:all .3s;
+}
+#wrap #main #member .container .wrap .content ul.inputForm > li.button-box button:hover {
+    filter: brightness(120%);
+}
+
+
+
+#wrap #footer {
+    width:100%;
+    height:120px;
+    background:#fcfcfc;
+
+    position:relative;
+    z-index:1;
+}
+#wrap #footer .container {}
+#wrap #footer .container .wrap {}
+
+
+
+#modal {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:4;
+
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0, .4);
+
+    display:flex;
+}
+#modal.on {
+    display:flex;
+}
+#modal .container {
+    width:500px;
+    height:300px;
+    background:#fff;
+    margin:auto;
+}
+#modal .container ul {
+    padding:15px 30px;
+}
+#modal .container ul li {
+    width:100%;
+}
+#modal .container ul li:nth-child(1) {
+    width:100%;
+    height:50px;
+
+    border-bottom: 1px solid #666;
+    display:flex;
+    align-items:center;
+}
+#modal .container ul li:nth-child(2) {
+    width:100%;
+    height:135px;
+    display:flex;
+}
+#modal .container ul li h2 {
+    margin:auto auto auto 0;
+    color:#5f0080;
+    font-size:15px;
+    font-weight:600;
+}
+#modal .container ul li .close-btn {
+    margin:auto 0 auto auto;
+    height:50px;
+    
+}
+#modal .container ul li .modal-msg {
+    margin:auto;
+}
+#modal .container .button-box {
+    width:100%;
+    height:100px;
+    display:flex;
+
+    background: #f1f1f1;
+}
+#modal .container .button-box .ok-btn {
+    width:150px;
+    height:45px;
+    color:#fff;
+    background: #5f0080;
+    margin:auto;
+}
